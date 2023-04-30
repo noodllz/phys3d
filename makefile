@@ -18,6 +18,6 @@ $(TARGET): $(SRCS)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) $^ -o $@
 
 # Clean target
-Clean:
-	rm -f $(TARGET)
+clean:
+	del $(TARGET).exe
 
