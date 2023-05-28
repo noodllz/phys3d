@@ -24,7 +24,7 @@ namespace p_phys{
         private: Particle2* get_particles();
         private: void print_particles();
         private: void initialise_particles();
-        private: void compute_force(Particle2* particle);
+        private: void compute_gravity(Particle2* particle);
         public: void simulate();
     };
 } // namespace p_phys

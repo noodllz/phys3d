@@ -1,6 +1,5 @@
-#include "partical_phys_tutorial.h"
-
 #include <cstdlib>
+#include "partical_phys_tutorial.h"
 
 namespace p_phys
 {
@@ -34,7 +33,7 @@ namespace p_phys
     }
 
     void PartPhysTutorial::simulate(){
-        int TotalSimTime -=10;
+        int TotalSimTime =10;
         int CurrTime = 0;
         int StepTime = 1;
 
